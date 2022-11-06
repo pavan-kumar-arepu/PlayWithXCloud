@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -24,60 +25,67 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devleopment " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaF-Zh-s94">
-                                <rect key="frame" x="14" y="385" width="370" height="26"/>
+                                <rect key="frame" x="14" y="380" width="370" height="26"/>
                                 <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commit &amp; Push" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-wo-ki0">
-                                <rect key="frame" x="130.33333333333331" y="467" width="137.33333333333331" height="26"/>
+                                <rect key="frame" x="129" y="436" width="140" height="26"/>
                                 <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Archive &amp; Keep artifacts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59O-EU-hXd">
-                                <rect key="frame" x="10" y="592" width="370" height="26"/>
-                                <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push to Testflight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAR-Io-k5g">
-                                <rect key="frame" x="120.00000000000001" y="680" width="150.33333333333337" height="26"/>
-                                <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Build Trigger in XCode Cloud" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3li-Sa-cif">
-                                <rect key="frame" x="73" y="527" width="252" height="26"/>
+                                <rect key="frame" x="70.333333333333343" y="492" width="257.33333333333326" height="26"/>
                                 <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Archive &amp; Keep artifacts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59O-EU-hXd">
+                                <rect key="frame" x="10" y="548" width="370" height="26"/>
+                                <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push to Testflight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAR-Io-k5g">
+                                <rect key="frame" x="117.66666666666669" y="604" width="155" height="26"/>
+                                <color key="tintColor" red="0.56323934440000001" green="0.48485025799999998" blue="0.89100174489999995" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="cuM-Br-aP3">
+                                <rect key="frame" x="128.66666666666666" y="238" width="132.99999999999997" height="120"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
-                        <color key="tintColor" red="0.79786643400000001" green="0.58696760729999997" blue="0.18788925610000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="59O-EU-hXd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="58F-ap-60E"/>
                             <constraint firstItem="3f3-LD-s9p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="5cD-4n-fJE"/>
-                            <constraint firstItem="zaY-wo-ki0" firstAttribute="top" secondItem="RaF-Zh-s94" secondAttribute="bottom" constant="56" id="ADc-Jy-3gK"/>
-                            <constraint firstItem="59O-EU-hXd" firstAttribute="top" secondItem="3li-Sa-cif" secondAttribute="bottom" constant="39" id="HEH-bW-yhk"/>
+                            <constraint firstItem="zaY-wo-ki0" firstAttribute="top" secondItem="RaF-Zh-s94" secondAttribute="bottom" constant="30" id="ADc-Jy-3gK"/>
+                            <constraint firstItem="cuM-Br-aP3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="H3k-oz-go0"/>
+                            <constraint firstItem="59O-EU-hXd" firstAttribute="top" secondItem="3li-Sa-cif" secondAttribute="bottom" constant="30" id="HEH-bW-yhk"/>
                             <constraint firstItem="3f3-LD-s9p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="J4v-bS-oA1"/>
                             <constraint firstItem="59O-EU-hXd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JsD-Hh-0Xo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3f3-LD-s9p" secondAttribute="trailing" constant="10" id="Pux-vn-hZ4"/>
-                            <constraint firstItem="RaF-Zh-s94" firstAttribute="top" secondItem="3f3-LD-s9p" secondAttribute="bottom" constant="155" id="Q0b-Ev-6Wt"/>
+                            <constraint firstItem="RaF-Zh-s94" firstAttribute="top" secondItem="3f3-LD-s9p" secondAttribute="bottom" constant="150" id="Q0b-Ev-6Wt"/>
+                            <constraint firstItem="cuM-Br-aP3" firstAttribute="top" secondItem="3f3-LD-s9p" secondAttribute="bottom" constant="8" symbolic="YES" id="RZk-OF-t0d"/>
                             <constraint firstItem="3li-Sa-cif" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="4" id="Tvb-9B-tYI"/>
+                            <constraint firstItem="cuM-Br-aP3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.341026" id="YIz-Au-itv"/>
                             <constraint firstItem="zaY-wo-ki0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="4" id="aWy-lw-XiZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3f3-LD-s9p" secondAttribute="bottom" constant="580" id="d4U-KK-fgF"/>
                             <constraint firstItem="RaF-Zh-s94" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-2" id="mRp-Zb-5Ga"/>
-                            <constraint firstItem="QAR-Io-k5g" firstAttribute="top" secondItem="59O-EU-hXd" secondAttribute="bottom" constant="62" id="nPb-Mw-7jD"/>
+                            <constraint firstItem="cuM-Br-aP3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.14218" id="n1o-9B-Dv2"/>
+                            <constraint firstItem="QAR-Io-k5g" firstAttribute="top" secondItem="59O-EU-hXd" secondAttribute="bottom" constant="30" id="nPb-Mw-7jD"/>
                             <constraint firstItem="QAR-Io-k5g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nmJ-lc-bOY"/>
-                            <constraint firstItem="3li-Sa-cif" firstAttribute="top" secondItem="zaY-wo-ki0" secondAttribute="bottom" constant="34" id="oxw-CU-wJp"/>
+                            <constraint firstItem="3li-Sa-cif" firstAttribute="top" secondItem="zaY-wo-ki0" secondAttribute="bottom" constant="30" id="oxw-CU-wJp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RaF-Zh-s94" secondAttribute="trailing" constant="6" id="qID-k4-aND"/>
                         </constraints>
                     </view>
@@ -88,8 +96,12 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="cloud" width="300" height="300"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
